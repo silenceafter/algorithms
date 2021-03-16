@@ -6,7 +6,7 @@ namespace lesson2
 {
     public static class TreeHelper
     {
-        /*public static NodeInfo[] GetTreeInLine(ITree tree)
+        public static NodeInfo[] GetTreeInLine(ITree tree)
         {
             var bufer = new Queue<NodeInfo>();
             var returnArray = new List<NodeInfo>();
@@ -40,6 +40,6 @@ namespace lesson2
                 }
             }
             return returnArray.ToArray();
-        }*/
+        }
     }
 }

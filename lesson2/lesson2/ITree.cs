@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lesson2
 {
-    interface ITree
+    public interface ITree
     {
         TreeNode GetRoot();
         void AddItem(int value); // добавить узел

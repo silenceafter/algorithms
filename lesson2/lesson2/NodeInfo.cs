@@ -4,7 +4,7 @@ using System.Text;
 
 namespace lesson2
 {
-    class NodeInfo
+    public class NodeInfo
     {
         public int Depth { get; set; }
         public TreeNode Node { get; set; }
