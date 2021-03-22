@@ -20,5 +20,10 @@ namespace lesson2
 
             return node.Value == Value;
         }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
     }
 }
